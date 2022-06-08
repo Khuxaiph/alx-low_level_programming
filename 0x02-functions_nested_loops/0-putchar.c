@@ -1,18 +1,13 @@
 #include <stdio.h>
-#include "main.h"
 /**
-* num - printing a to z,
-* with increment
-* hopefully it works
-* Return: Always 0 (sucess)
-*/
-int num(void)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-putchar(ch);
-}
+#include "main.h"
 putchar('\n');
 return (0);
 }
