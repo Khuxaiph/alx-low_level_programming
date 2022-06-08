@@ -1,4 +1,4 @@
-for (ch = 'a'; ch <= 'i'; ch++)
+for (ch = 'a'; ch <= 'h'; ch++)
 {
 putchar(ch);
 }
