@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-#include "alphabet'h"
+#include "alphabet.h"
 }
 putchar('\n');
 return (0);
