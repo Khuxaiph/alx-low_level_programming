@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
+for (g = 'a'; g <= 'z'; g++)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-putchar(ch);
+putchar(g);
 }
 putchar('\n');
-}
