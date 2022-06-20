@@ -12,5 +12,5 @@ while (n < 8)
 putchar('_');
 n++;
 }
- putchar('\n');
+putchar('\n');
 }
