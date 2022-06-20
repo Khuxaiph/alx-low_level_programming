@@ -9,9 +9,8 @@ void print_line(int n)
 {
 while (n < 8)
 {
-_putchar('_');
+putchar('_');
 n++;
 }
-_putchar('\n');
-return (0);
+putchar('\n');
 }
