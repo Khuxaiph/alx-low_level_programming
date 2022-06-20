@@ -12,5 +12,4 @@ while (n < 8)
 putchar('_');
 n++;
 }
-putchar('\n');
 }
