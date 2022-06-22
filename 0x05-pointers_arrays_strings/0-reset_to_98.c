@@ -9,9 +9,6 @@
 
 void reset_to_98(int *n)
 {
-int a;
-a = 10;
-n = &n;
 *n = 98;
 return (0);
 }
