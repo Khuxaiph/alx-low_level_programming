@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * reset_to_98.c: Rest value to 98
+ * reset_to_98 - Rest value to 98
  * @n : First value
  * Return : if it returns 0, sucess
  */
