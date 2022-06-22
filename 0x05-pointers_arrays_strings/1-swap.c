@@ -8,10 +8,9 @@
  */
 void swap_int(int *a, int *b)
 {
-a = 98;
-b = 42;
-putchar("a=%d, b=%d\n", a, b);
-swap(&a, &b);
-putchar("a=%d, b=%d\n", a, b);
-return (0);
+int c;
+
+	c = *b;
+	*b = *a;
+	*a = c;
 }
