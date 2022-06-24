@@ -2,19 +2,19 @@
 
 /**
  * _puts_recursion - prints a string, followed by a new line
- * @s: the string
- * Return: return zero
  *
+ * @s: The string that prints
+ *
+ * Return: nothing
  */
 
 void _puts_recursion(char *s)
 {
-if (*s == '\0')
-{
-return;
-}
-else
-{
-_puts_recursion(s);
-_putchar(*s);
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
